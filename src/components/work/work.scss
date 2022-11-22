@@ -1,0 +1,100 @@
+.work{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+    .wktexts{
+        width: 55%;
+    }
+
+    .wktitle{
+        margin-top: 10px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .wkdesc{
+        margin: 20px 0px;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .wklist{
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.eg{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p{
+    width: 50%;
+    height: 55vh;
+    margin-right: 40px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+
+    .p-browser{
+        width: 110%;
+        height: 30px;
+        background-color: black;
+        display: flex;
+        margin: 0;
+        align-items: center;
+        position: sticky;
+        z-index: 2;
+        
+        p{
+            color:white;
+            margin: 100px;
+            font-size: 18px;
+            margin-left: 210px;
+        }
+
+        .p-circle{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            margin: 4px;
+            background-color: white;
+        }
+    }
+
+    .p-img{
+        width: 100%;
+        transition: all 10s ease;
+        z-index: 5;
+    }
+}
+
+.p:hover .p-img{
+    transform: translateY(-100%);
+}
